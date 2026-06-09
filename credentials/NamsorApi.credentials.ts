@@ -8,7 +8,7 @@ import type {
 export class NamsorApi implements ICredentialType {
 	name = 'N8nDevNamsorApi';
 
-	displayName = 'namsor API';
+	displayName = 'Namsor API';
 
 	icon: Icon = { light: 'file:../nodes/Namsor/namsor.png', dark: 'file:../nodes/Namsor/namsor.dark.png' };
 
@@ -22,7 +22,7 @@ export class NamsorApi implements ICredentialType {
 			default: 'https://v2.namsor.com/NamSorAPIv2',
 			required: true,
 			placeholder: 'https://v2.namsor.com/NamSorAPIv2',
-			description: 'The base URL of your namsor API server',
+			description: 'The base URL of your Namsor API server',
 		},
 		{
 			displayName: 'API Key',

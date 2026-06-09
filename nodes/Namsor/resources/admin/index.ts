@@ -27,8 +27,8 @@ export const adminDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Key Info",
-					"value": "Api Key Info",
+					"name": "API Key Info",
+					"value": "API Key Info",
 					"action": "Read API Key info.",
 					"description": "Read API Key info.",
 					"routing": {
@@ -51,8 +51,8 @@ export const adminDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Status",
-					"value": "Api Status",
+					"name": "API Status",
+					"value": "API Status",
 					"action": "Prints the current status of the classifiers. A classifier name in apiStatus corresponds to a service name in apiServices.",
 					"description": "Prints the current status of the classifiers. A classifier name in apiStatus corresponds to a service name in apiServices.",
 					"routing": {
@@ -63,8 +63,8 @@ export const adminDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Usage",
-					"value": "Api Usage",
+					"name": "API Usage",
+					"value": "API Usage",
 					"action": "Print current API usage.",
 					"description": "Print current API usage.",
 					"routing": {
@@ -75,8 +75,8 @@ export const adminDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Usage History",
-					"value": "Api Usage History",
+					"name": "API Usage History",
+					"value": "API Usage History",
 					"action": "Print historical API usage.",
 					"description": "Print historical API usage.",
 					"routing": {
@@ -87,8 +87,8 @@ export const adminDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Usage History Aggregate",
-					"value": "Api Usage History Aggregate",
+					"name": "API Usage History Aggregate",
+					"value": "API Usage History Aggregate",
 					"action": "Print historical API usage (in an aggregated view, by service, by day/hour/min).",
 					"description": "Print historical API usage (in an aggregated view, by service, by day/hour/min).",
 					"routing": {
@@ -258,7 +258,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Key Info"
+						"API Key Info"
 					]
 				}
 			}
@@ -283,7 +283,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Key Info"
+						"API Key Info"
 					]
 				}
 			}
@@ -346,7 +346,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Status"
+						"API Status"
 					]
 				}
 			}
@@ -371,7 +371,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Status"
+						"API Status"
 					]
 				}
 			}
@@ -390,7 +390,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage"
+						"API Usage"
 					]
 				}
 			}
@@ -415,7 +415,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage"
+						"API Usage"
 					]
 				}
 			}
@@ -434,7 +434,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage History"
+						"API Usage History"
 					]
 				}
 			}
@@ -459,7 +459,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage History"
+						"API Usage History"
 					]
 				}
 			}
@@ -478,7 +478,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage History Aggregate"
+						"API Usage History Aggregate"
 					]
 				}
 			}
@@ -503,7 +503,7 @@ export const adminDescription: INodeProperties[] = [
 						"Admin"
 					],
 					"operation": [
-						"Api Usage History Aggregate"
+						"API Usage History Aggregate"
 					]
 				}
 			}
