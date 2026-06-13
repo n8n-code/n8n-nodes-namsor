@@ -8,32 +8,32 @@ import { adminDescription } from './resources/admin';
 import { generalDescription } from './resources/general';
 
 export class Namsor implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Namsor',
-		name: 'N8nDevNamsor',
-		icon: { light: 'file:./namsor.png', dark: 'file:./namsor.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'NamSor API v2 : enpoints to process personal names (gender, cultural origin or ethnicity) in all alphabets or languages. By default, enpoints use 1 unit per name (ex. Gender), but Ethnicity classif..',
-		defaults: { name: 'Namsor' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevNamsorApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Namsor',
+                name: 'N8nDevNamsor',
+                icon: { light: 'file:./namsor.png', dark: 'file:./namsor.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'NamSor API v2: endpoints process personal names for gender, ethnicity, and cultural origin across all languages.',
+                defaults: { name: 'Namsor' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevNamsorApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -85,6 +85,6 @@ export class Namsor implements INodeType {
 		...indianDescription,
 		...adminDescription,
 		...generalDescription
-		],
-	};
+                ],
+        };
 }

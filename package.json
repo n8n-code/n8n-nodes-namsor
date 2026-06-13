@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-namsor",
-  "version": "1.0.1",
-  "description": "NamSor API v2 : enpoints to process personal names (gender, cultural origin or ethnicity) in all alphabets or languages. By default, enpoints use 1 unit per name (ex. Gender), but Ethnicity classif..",
+  "version": "1.0.2",
+  "description": "NamSor API v2: endpoints process personal names for gender, ethnicity, and cultural origin across all languages.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-namsor",
   "keywords": [
